@@ -1,0 +1,100 @@
+html {
+  background-color: #ffffff;
+}
+
+#whole-table {
+  margin-top: 0.5%;
+  margin-left: 0.5%;
+}
+
+.dropbtn {
+  background-color: #f5f7f7;
+  display: inline-block;
+  color: #707171;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b7e4ff;
+}
+
+#drop {
+  color: white;
+  border: 10px;
+  border-color: black;
+}
+
+#importer {
+  color: black;
+  border: 10px;
+  border-color: black;
+}
+
+#exported {
+  border: 10px;
+  border-color: black;
+}
+
+#clearGrid {
+  border: 10px;
+  border-color: black;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  background-color: #f5f7f7;
+
+}
+
+li {
+  float: left;
+}
+
+li button {
+  display: block;
+  color: #707171;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li button:hover {
+  background-color: #b7e4ff;
+}

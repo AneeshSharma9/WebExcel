@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script> var __basePath = ''; </script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://unpkg.com/ag-grid-enterprise@20.2.0/dist/ag-grid-enterprise.min.js"></script>
+    <script lang="javascript" src="xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <div class="dropdown" id="drop">
+                <button class="dropbtn">Add</button>
+                <div class="dropdown-content">
+                    <a href="#" id='addCol'>Add Column </br><label>Column name:</label><input type="text" id="colName"><button
+                            id="submitCol">Create column</button></a>
+                    <a href="#" id='addRow'>Add Row</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown" id="importer">
+                <button class="dropbtn">Import</button>
+                <div class="dropdown-content">
+                    <a href="#" id='imp'>Import File:<input id="import" type="file" name="somename" size="n"
+                            accept=".xlsx, .xls, .csv"></a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown" id="exported">
+                <button class="dropbtn">Export</button>
+                <div class="dropdown-content">
+                    <a href="#" id='exporter'>Export as .xlsx</a>
+                    <a href="#" id='exportCSV'>Export as .csv</a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdown" id="clearGrid">
+                <button class="dropbtn">Clear</button>
+                <div class="dropdown-content">
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+
+
+
+    <div id="whole-table" ng-app="example" ng-controller="exampleCtrl" style="height: 90%">
+        <div ag-grid="gridOptions" class="ag-theme-balham" style="width: 97%; height: 100%;"></div>
+
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
