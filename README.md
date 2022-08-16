@@ -6,7 +6,7 @@ https://web-excel-aggrid.herokuapp.com/
 ## 📜 Description
 Fully functioning spreadsheet program utilized in the browser with import and exporting capabilities
 
-## 🧑🏽‍💻 Development
+## 💻 Development
 Created using the AG-Grid library using Angular.js
 Site hosted using Heroku
 
