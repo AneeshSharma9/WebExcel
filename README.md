@@ -1,7 +1,7 @@
 # Web Excel
  
 ## 🔗 Link
-[https://web-excel-aggrid.herokuapp.com/](https://webexcel.netlify.app/)
+https://webexcel.netlify.app/
 
 ## 📜 Description
 Fully functioning spreadsheet program utilized in the browser with import and exporting capabilities
